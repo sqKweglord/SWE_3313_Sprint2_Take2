@@ -1,15 +1,10 @@
 package people;
 
-import order.Order;
-
-public class Person 
+public abstract class Person
 {
 	public String Name;
 	
-	public Order placeOrder()
-	{
-		
-	}
+	public abstract Order placeOrder();
 	
 	public void cancelOrder(Order order)
 	{

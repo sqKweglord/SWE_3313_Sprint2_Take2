@@ -12,7 +12,8 @@ public class Customer extends Person
 	@Override
 	public Order placeOrder()
 	{
-		
+		Order order = new Order();
+		return order;
 	}
 	
 	

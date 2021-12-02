@@ -13,4 +13,9 @@ public class Employee extends Person
 		
 		editCustomerInformation(c1, name, phoneNumber, addressLine1, addressLine2, city, state, zip);
 	}
+
+	@Override
+	public Order placeOrder() {
+		return null;
+	}
 }
